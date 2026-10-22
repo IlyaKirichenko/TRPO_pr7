@@ -19,6 +19,7 @@ namespace Kirichenko_pr7
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Pages.MainPage());
         }
     }
 }
